@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "xiyuyang",
+  "slug": "xiyuyang",
+  "title": "奚雨阳 Wiki",
+  "subtitle": "个人 Wiki",
+  "description": "记录介绍、语录、图片与视频",
+  "logo": "/static/sakuya-logo.svg",
+  "theme": "archive",
+  "sections": [
+    {
+      "id": "intro",
+      "name": "介绍",
+      "icon": "book-open-text",
+      "type": "markdown",
+      "source": "pages/intro.md"
+    },
+    {
+      "id": "quotes",
+      "name": "语录",
+      "icon": "message-square-quote",
+      "type": "quotes",
+      "source": "pages/quotes.md"
+    },
+    {
+      "id": "gallery",
+      "name": "图册",
+      "icon": "images",
+      "type": "gallery",
+      "source": "media/gallery"
+    },
+    {
+      "id": "video",
+      "name": "视频",
+      "icon": "clapperboard",
+      "type": "video",
+      "source": "media/video"
+    }
+  ]
+}
